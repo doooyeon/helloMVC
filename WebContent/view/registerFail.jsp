@@ -4,18 +4,15 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
-<title>loginFail Page</title>
+<title>registerFail Page</title>
 </head>
 <body>
-	<h1>Login Failed: ${id} is not present</h1>
+	<h1>Register Failed: ${id} is already exist.</h1>
 	<p>
 		<a href="/helloMVC/index.jsp">go to home page</a>
 	</p>
 	<p>
 		<a href="/helloMVC/home?action=register"> go to register page </a>
-	</p>
-	<p>
-		<a href="/helloMVC/home?action=login"> go to login page </a>
 	</p>
 </body>
 </html>

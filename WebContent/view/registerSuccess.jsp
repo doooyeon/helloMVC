@@ -18,5 +18,8 @@
 	<p>
 		<a href="/helloMVC/index.jsp"> go to home page </a>
 	</p>
+	<p>
+		<a href="/helloMVC/home?action=login"> go to login page </a>
+	</p>
 </body>
 </html>
