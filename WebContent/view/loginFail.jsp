@@ -4,9 +4,12 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
-<title>Insert title here</title>
+<title>loginFial Page</title>
 </head>
 <body>
-This is a help page.
+	<h1>Login Failed: ${id} is not present</h1>
+	<p>
+		<a href="/helloMVC/index.jsp">go to home page</a>
+	</p>
 </body>
 </html>

@@ -7,10 +7,12 @@ import lombok.Setter;
 @Getter
 @Setter
 @AllArgsConstructor
-
 public class Customer {
+	
 	private String id;
+	private String password;
 	private String name;
+	private String gender;
 	private String email;
 
 }

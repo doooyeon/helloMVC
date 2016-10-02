@@ -4,15 +4,19 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
-<title>helloMVC Web Application</title>
+<title>registerSuccess Page</title>
 </head>
 <body>
-	This is the home page for shopping
+	<h1>You registered successfully.</h1>
+	<ul>
+		<li>Id : ${customer.id}
+		<li>Password : ${customer.password}
+		<li>Name : ${customer.name}
+		<li>Gender : ${customer.gender}
+		<li>Email : ${customer.email}
+	</ul>
 	<p>
-		<a href="/helloMVC/home?action=login"> go to login page </a>
-	</p>
-	<p>
-		<a href="/helloMVC/home?action=register"> go to register page </a>
+		<a href="/helloMVC/index.jsp"> go to home page </a>
 	</p>
 </body>
 </html>
